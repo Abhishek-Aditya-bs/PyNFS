@@ -1,8 +1,9 @@
 # PyNFS - Python Implementation of a Network File System
 
 ## Introduction 
-
-![NFS Architecture](https://developer.ibm.com/developer/default/tutorials/l-network-filesystems/images/figure2.gif)
+<p align="center">
+<img alt="NFS Architecture" src="https://developer.ibm.com/developer/default/tutorials/l-network-filesystems/images/figure2.gif" />
+</p>
 
 NFS supports file sharing between multiple peer clients serving on highly available cluster services, NAS clients can potentially access file shares
 from anywhere in the organization. Because file access is,
@@ -103,7 +104,6 @@ over single lock file function is tolerated in this method.
 ## License
 MIT 
 
-<!-- Write a github description -->
 
     
 
