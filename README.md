@@ -60,7 +60,7 @@ over single lock file function is tolerated in this method.
     1. In `NFS_Server/nfsServer.py` change the Data Node paths in the `DATA_NODE_LIST`.
     ```python
     DATA_NODE_LIST = [["127.0.0.1",8888,r'/Users/abhishekadityabs/Distributed Systems/PyNFS/src/NFS_DataNode-1'],  
-                          ["127.0.0.1",8000,r'/Users/abhishekadityabs/Distributed Systems/PyNFS/src/NFS_DataNode-2']] 
+                      ["127.0.0.1",8000,r'/Users/abhishekadityabs/Distributed Systems/PyNFS/src/NFS_DataNode-2']] 
     ```
     2. In `NFS_DataNode-1/DataNode1.py`, change the `DIR_PATH` variable to the path of the directory `NFS_DataNode-1/` in your system.
     Similarly, do the same change in `NFS_DataNode-2/DataNode2.py` for the `DIR_PATH` variable.
@@ -90,7 +90,7 @@ over single lock file function is tolerated in this method.
                          <Port Number of Data Node 2>,
                          r'<Path of Data Node 2>']] 
     ```
-3. In NFS_DataNode-1/FTPServer1.py, change the `FTP_ADDR` variable to the IP Address of the Data Node 1. Similarly, do the same change in NFS_DataNode-2/FTPServer2.py for the `FTP_ADDR` variable.
+3. In `NFS_DataNode-1/FTPServer1.py`, change the `FTP_ADDR` variable to the IP Address of the Data Node 1. Similarly, do the same change in `NFS_DataNode-2/FTPServer2`.py for the `FTP_ADDR` variable.
 4. Repeat the steps from 2 to 7 in the above section.
 
 ## Limitations
