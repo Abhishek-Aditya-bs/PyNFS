@@ -1,0 +1,4 @@
+pandas
+rpyc
+pyftpdlib
+colorama
