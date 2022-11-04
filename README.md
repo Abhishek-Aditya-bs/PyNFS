@@ -39,7 +39,7 @@ over single lock file function is tolerated in this method.
 
 ## Implementation
 
-1. Two Data Nodes, One NFS Communication Server, One NFS CLient has been implemented.
+1. Two Data Nodes, One NFS Communication Server, One NFS Client has been implemented.
 2. The Data Nodes store the file system metadata and run FTP Servers to communicate with the NFS Server to fetch and retreive the requested files and perform other actions requested.
 3. The Client is given options after successful connection to the NFS Server
     1. List Files
